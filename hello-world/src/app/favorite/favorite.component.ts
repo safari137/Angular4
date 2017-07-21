@@ -10,6 +10,6 @@ export class FavoriteComponent {
 
   private onClick() {
     this.isFavorite = !this.isFavorite;
-    this.change.emit();
+    this.change.emit(this.isFavorite);
   }
 }
