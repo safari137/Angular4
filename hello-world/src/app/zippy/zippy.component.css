@@ -1,0 +1,28 @@
+#zippy-body {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 70%;
+    margin : 10px auto;
+}
+
+.zippy-heading {    
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#zippy-expand {
+    font-size: 16px;
+    float: right;
+    padding-right: 25px;
+    padding-top: 7px;    
+}
+
+.zippy-expanded {
+    background: #f0f0f0;
+}
+
+#zippy-content {    
+    padding: 15px;
+}

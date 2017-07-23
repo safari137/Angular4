@@ -11,6 +11,10 @@ import { CourseComponent } from './course/course.component';
 import { AuthorsComponent } from './authors/authors.component';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { TitleComponent } from './title/title.component';
+import { InputFormatDirective } from './input-format.directive';
+import { ZippyComponent } from './zippy/zippy.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { CourseFormComponent } from './course-form/course-form.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { TitleComponent } from './title/title.component';
     AuthorsComponent,
     SummaryPipe,
     FavoriteComponent,
-    TitleComponent
+    TitleComponent,
+    InputFormatDirective,
+    ZippyComponent,
+    ContactFormComponent,
+    CourseFormComponent
   ],
   imports: [
     BrowserModule,
