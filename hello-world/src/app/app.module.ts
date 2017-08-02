@@ -18,6 +18,8 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { CourseFormComponent } from './course-form/course-form.component';
 import { NewCourseFormComponent } from './new-course-form/new-course-form.component';
 import { ChangePasswordFormComponent } from './change-password-form/change-password-form.component';
+import { PostComponent } from './post/post.component';
+import { HttpModule } from "@angular/http";
 
 @NgModule({
   declarations: [
@@ -34,12 +36,14 @@ import { ChangePasswordFormComponent } from './change-password-form/change-passw
     ContactFormComponent,
     CourseFormComponent,
     NewCourseFormComponent,
-    ChangePasswordFormComponent
+    ChangePasswordFormComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpModule
   ],
   providers: [
     CoursesService,
